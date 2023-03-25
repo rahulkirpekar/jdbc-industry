@@ -1,0 +1,22 @@
+BEAN
+
+DAO
+
+
+
+
+1) Statement		2) PreparedStatement
+      |				  |	
+executeUpdate()		    executeUpdate()
+executeQuery()		    executeQuery()
+
+
+
+insert--executeUpdate()--int---rowsAffected
+update--executeUpdate()--int---rowsAffected
+delete--executeUpdate()--int---rowsAffected
+
+display All records---executeQuery()--Multiple Rows----ResultSet----select--getAllRecords
+
+
+
