@@ -50,4 +50,17 @@ public class EmployeeBean
 	public void setOrgName(String orgName) {
 		this.orgName = orgName;
 	}
+	@Override
+	public String toString() 
+	{
+		return id + " " +name + " "+ salary +" "+dsgn + " "+orgName;
+	}
 }
+
+
+
+
+
+
+
+
